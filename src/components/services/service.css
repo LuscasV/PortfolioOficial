@@ -51,7 +51,7 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1223px) {
+@media screen and (max-width: 992px) {
   .services-container {
     width: 80%;
     margin: auto;
