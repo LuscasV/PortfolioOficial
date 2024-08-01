@@ -1,0 +1,115 @@
+.services {
+  background-color: var(--container-color);
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.service-box {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  height: 300px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 7rem;
+}
+
+.service-box:hover {
+  background: transparent;
+  color: var(--title-color);
+  transform: scale(1.03);
+  border: 1px solid var(--title-color);
+}
+
+.service-box .service-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-height: 200px;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+}
+
+.service-info h4 {
+  font-size: 2.5rem;
+  font-weight: var(--font-medium);
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.services-info p {
+  font-size: 1.6rem;
+  font-weight: var(--font-normal);
+  max-height: 100px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1223px) {
+  .services-container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .service-box {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 1rem;
+  }
+
+  .service-info h4 {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+  }
+
+  .service-info p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-box {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    height: 300px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+
+  .service-info h4 {
+    font-size: 1.5rem;
+    font-weight: var(--font-medium);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .services-info p {
+    font-size: 1.6rem;
+    font-weight: var(--font-normal);
+    max-height: 100px;
+    margin: auto;
+  }
+
+  .service-info .box1 {
+    margin-top: 4rem;
+  }
+
+  .service-info .box2 {
+    margin-top: 5rem;
+  }
+}

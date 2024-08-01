@@ -1,0 +1,3 @@
+color: #00cec9;
+background-color: #181818;
+color: rgba(255, 255, 255, 0.87);
