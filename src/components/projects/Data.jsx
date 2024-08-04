@@ -22,10 +22,10 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: "https://i.ibb.co/Z6hbP8M/projeto4.jpg",
-    title: "Costs",
-    code: "https://github.com/LuscasV/Costs_react",
-    deploy: "https://costs-react-seven.vercel.app/",
+    image: "https://i.ibb.co/fXrLR8k/12.png",
+    title: "Calculadora de médias",
+    code: "https://github.com/LuscasV/projeto_calculadora_medias",
+    deploy: "https://lucas-projeto-calculadora-medias-two.vercel.app/",
   },
   {
     id: 5,
