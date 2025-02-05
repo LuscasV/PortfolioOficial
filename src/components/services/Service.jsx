@@ -6,7 +6,7 @@ const Service = () => {
       <h2 className="section__title">Serviços</h2>
       <span className="section__subtitle">O que eu ofereço</span>
 
-      <div className="services-container">
+      <div className="services-container container">
         <div className="flex-box">
         <div className="service-box">
           <div className="service-info">
@@ -25,7 +25,7 @@ const Service = () => {
         <div className="service-box">
           <div className="service-info parte2">
             <div className="texto-center">
-            <h4 className="box2">Criação de <br />Landing Pages</h4>
+            <h4 className="box2">Landing Pages</h4>
             <p>
               Crio páginas de destino impactantes e otimizadas para converter
               visitantes em clientes, utilizando técnicas comprovadas de design
