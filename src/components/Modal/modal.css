@@ -1,0 +1,79 @@
+/* modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: var(--container-color);
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+}
+
+.modal-content h2 {
+    font-size: 24px;
+    color: var(--title-color);
+}
+
+.modal-content img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.features span {
+    color: var(--title-color);
+    font-size: 18px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.projet-div {
+    display: flex;
+}
+
+.projet {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.modal-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+    .modal-content {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .modal-content {
+        max-width: 90%;
+    }
+}

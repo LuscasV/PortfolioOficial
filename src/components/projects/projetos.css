@@ -21,7 +21,7 @@
 .work__title {
   font-size: var(--normal-font-size);
   margin-bottom: 0.5rem;
-  color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 .work__button {
@@ -43,6 +43,20 @@
   color: var(--title-color);
   transform: scale(1.03);
   border: 1px solid var(--title-color);
+}
+
+.button-modal {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.button-modal:hover {
+  transform: scale(1.03);
 }
 
 /* =============== BREAKPOINTS =============== */
