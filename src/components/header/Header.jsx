@@ -111,7 +111,7 @@ const Header = () => {
           className={showMenu ? "nav__toggle display-none" : "nav__toggle"}
           onClick={() => setShowMenu(!showMenu)}
         >
-          <i class="uil uil-apps"></i>
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>
