@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+.work__container:has(.work__card:only-child) {
+  grid-template-columns: max-content;
+  justify-content: center;
+}
+
+
 .work__card {
   background-color: var(--container-color);
   border: 1px solid rgba(133, 194, 244, 0.1);
@@ -22,6 +28,7 @@
   font-size: var(--normal-font-size);
   margin-bottom: 0.5rem;
   color: var(--title-color);
+  text-align: center;
 }
 
 .work__button {
@@ -57,6 +64,41 @@
 
 .button-modal:hover {
   transform: scale(1.03);
+}
+
+.project-button {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  margin-bottom: 4rem;  
+  
+  /* button {
+    padding: 0.5rem;
+    margin-right: 0.8rem;
+    border-radius: 0.7rem;
+    background-color: var(--title-color);
+  } */
+}  
+
+.project-button button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--title-color);
+  background: transparent;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+}
+
+.project-button button:hover {
+  background: var(--title-color);
+  color: var(--container-color);
+}
+
+.project-button button.active {
+  background: var(--title-color);
+  color: var(--container-color)
 }
 
 /* =============== BREAKPOINTS =============== */

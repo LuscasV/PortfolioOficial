@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ItemsProjetos from "./ItemsProjetos";
 
-const Projeto = () => {
+const Projeto = ({ category }) => {
   const [projects, setProjects] = useState([])
 
   const getProjects = async () => {
@@ -18,11 +18,13 @@ const Projeto = () => {
 
   useEffect(() => {
     getProjects()
-  }, [])
+  }, []);
+
+  const filteredProjects = projects.filter((item) => item.category === category)
 
   return (
     <div className="work__container container grid">
-      {projects.map((item) => {
+      {filteredProjects.map((item) => {
         return <ItemsProjetos item={item} key={item.id} />;
       })}
     </div>

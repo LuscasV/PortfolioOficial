@@ -53,11 +53,12 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Desenvolvedor Front-end</h3>
+      <h3 className="home__subtitle">Desenvolvedor Full Stack</h3>
       <p className="home__description">
-        Sou um Desenvolvedor Front-End de Minas Gerais, com habilidades em HTML,
-        CSS, JavaScript, TypeScript, Jquery, React, Bootstrap, Tailwind, Git,
-        Sass, e NodeJs.
+        Sou um Desenvolvedor Full Stack de Minas Gerais, com experiência em
+        HTML, CSS, JavaScript, TypeScript, jQuery, React, Bootstrap, Tailwind, Git,
+        Sass, Node.js e Python/Django, atuando tanto no front-end quanto no back-end
+        na construção de aplicações web modernas e funcionais.
       </p>
       <a href="#contact" className="button button--flex">
         Diga Olá

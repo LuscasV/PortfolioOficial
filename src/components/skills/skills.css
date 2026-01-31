@@ -18,6 +18,14 @@
   margin-bottom: var(--mb-1-5);
 }
 
+.skills__grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(5, auto);
+  column-gap: 2.5rem;
+  row-gap: 1rem;
+}
+
 .skills__box {
   display: flex;
   justify-content: center;
