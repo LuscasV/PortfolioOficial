@@ -16,14 +16,14 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Desenvolvedor Front-end na busca de um estágio para aprimorar minhas
-            habilidades e adquirir experiência prática. Tenho paixão por criar
-            interfaces de usuário intuitivas e responsivas, com foco em entregar
-            soluções elegantes e funcionais. Sou dedicado ao aprendizado
-            contínuo e estou sempre explorando novas tecnologias e melhores
-            práticas para oferecer experiências web de alta qualidade. Estou
-            ansioso para contribuir com minha criatividade e habilidades
-            técnicas em um ambiente colaborativo e dinâmico.
+            Desenvolvedor Full Stack em busca de um estágio para aprimorar minhas
+            habilidades e adquirir experiência prática no desenvolvimento de aplicações
+            web completas. Tenho paixão por criar interfaces intuitivas e responsivas,
+            aliadas a back-ends robustos, seguros e bem estruturados. Sou dedicado ao
+            aprendizado contínuo e estou sempre explorando novas tecnologias, arquiteturas
+            e boas práticas para entregar soluções elegantes, funcionais e escaláveis.
+            Estou motivado a contribuir com minha criatividade, visão técnica e vontade
+            de evoluir em um ambiente colaborativo e dinâmico.
           </p>
 
           <a download="" href={CV} className="button button--flex">
